@@ -1,7 +1,14 @@
+import styled from "styled-components";
+
+const Title = styled.h1`
+  color: purple;
+  font-size: 64px;
+`
+
 export function App() {
   return (
     <div className='App'>
-      <h1>Hello World! Leo Brizolla!🌎🌎</h1>
+      <Title>Hello World! Leo Brizolla!</Title>
     </div>
   );
 }
